@@ -1,1 +1,108 @@
 
+<html>
+  <head>
+     <title> registro de clientes </title>
+     <link href="estilosformularios.css" rel="stylesheet type="text/css"/>
+  <head>
+      <body>
+           <form action=" " method="post" class="from_clientes"
+               <h2 class="titulo_form_clientes"> CLIENTES </h2>                                              
+                   <div class="contenedor_input">                                           
+                      <table class?"tabla_clientes" border="1">
+                          <tr>
+                            <td class="celda_identificacion_clientes">                                  
+                               identificacion
+                              
+                            </td> 
+                          <td>
+                              <input type="tex" name"identificacion" class="imput-50" placeholder="mi identificacion">
+                            </td>
+                         </tr> 
+                        
+                        
+                       
+                        <tr>
+                         <td class="cleda_nombres_apellidos">
+                            nombre_apellidos
+                            
+                          </td> 
+                         <td>  
+                             <input type="tex" name"nombres_apellidos" class="imput-50" placeholder="tus nombres_apellidos"> 
+                          </td>
+                        </tr>
+                        
+                        
+                        
+                        <tr>
+                          <td class="cleda_telefono">
+                             telefono
+                        
+                         </td> 
+                        <td>  
+                            <input type="tex" name"telefono" class="imput-50" placeholder="tu telefono">
+                          </td>
+                        </tr>  
+                            
+                            
+                        
+                        <tr>
+                          <td class="cleda_fecha_nacimiento"> 
+                            fecha_nacimiento
+                            
+                          </td> 
+                        <td>  
+                            <input type="tex" name"fecha_nacimiento" class="imput-50" placeholder="tu fecha_nacimiento">
+                          </td>
+                        </tr>  
+                           
+                        
+                        
+                            
+                        <tr>
+                          <td class="email"> 
+                            email  
+                           
+                          </td> 
+                        <td>  
+                            <input type="tex" name"email" class="imput-50" placeholder="tu email">
+                          </td>
+                        </tr>    
+                            
+                        
+                        
+                        
+                        <tr>
+                          <td class="edad"> 
+                            edad  
+                        
+                          </td> 
+                        <td>  
+                            <input type="tex" name"edad" class="imput-50" placeholder="tu edad">
+                          </td>
+                        </tr>  
+                          
+                        
+                     <table class="tabla_botones" border="1">
+                       <tr> 
+                         
+                         <td> <input type="submit" value="registrarse" class="btn_registrarse"> 
+                         </td>
+                     
+                         <td> <input type="submit" value="actualizar datos" class="btn_actualizar datos"> 
+                         </td>
+                       
+                         <td> <input type="submit" value="consultar" class="btn_consultar"> 
+                         </td>
+                       
+                         
+                       </tr> 
+                        
+                     </table>                                       
+                   
+                        
+                        
+                  </div> 
+                     
+           </form>
+      </body>
+   </html>
