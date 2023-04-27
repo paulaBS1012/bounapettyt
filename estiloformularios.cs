@@ -1,7 +1,7 @@
 body{
   margin: 0;
   font-family: sans-serif;
-  background:#21E997;  
+  background:#358F60;  
 }
 
 .form_clientes{
