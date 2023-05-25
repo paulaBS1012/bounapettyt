@@ -1,1 +1,46 @@
+contenedor {
+  border: solid 1px black;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  box-sizing: border-box;
+  overflow: hidden;
+}
 
+.cabecera{
+  display: flex;
+  justify-content: space-between;
+  postion: relative;
+  height: 170px; 
+}
+
+.cabecera img{
+  width: 100px;
+}
+
+.titulo_cabecera{
+ position: absolute;
+ top: 40px;
+ left: 150px;
+}
+
+.slogan_cabecera{
+  position: absolute;
+  top: 90px;
+  left: 235px;
+}
+
+.menu{
+ margin: 10px 10px 0 0;
+ position: unset;
+ backgroud: none;
+ height:unset;
+ border: none;
+}
+
+.link{
+  background: #0D035B;
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
+}
